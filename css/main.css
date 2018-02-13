@@ -7,9 +7,14 @@ input{
   border: 1px solid grey;
   padding: 5px;
   margin-top: 5px;
+  width: 90%;
 }
 
 label, input{
   display: block;
-  
+
+}
+
+button{
+  width: 100%;
 }
