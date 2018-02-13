@@ -1,0 +1,15 @@
+section{
+  width: 38%;
+}
+
+input{
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+label, input{
+  display: block;
+  
+}
