@@ -1,5 +1,22 @@
 section{
-  width: 38%;
+  display: flex;
+  justify-content: center;
+}
+
+
+form{
+  width: 380px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.two-colums{
+  display: flex;
+}
+
+.two-colums > * {
+  width: 50%;
 }
 
 input{
@@ -7,13 +24,13 @@ input{
   border: 1px solid grey;
   padding: 5px;
   margin-top: 5px;
-  width: 90%;
+  /* width: 90%; */
 }
 
-label, input{
+/* label, input{
   display: block;
 
-}
+} */
 
 button{
   width: 100%;
